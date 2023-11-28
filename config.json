@@ -16,20 +16,19 @@
   "intermediate_size": 49152,
   "kv_channels": 128,
   "layer_norm_epsilon": 1e-06,
-  "max_position_embeddings": 8192,
+  "max_position_embeddings": 32768,
   "model_type": "qwen",
   "no_bias": true,
   "num_attention_heads": 64,
   "num_hidden_layers": 80,
   "onnx_safe": null,
-  "padded_vocab_size": 152064,
   "rope_theta": 1000000,
   "rotary_emb_base": 1000000,
   "rotary_pct": 1.0,
   "scale_attn_weights": true,
-  "seq_length": 8192,
+  "seq_length": 32768,
   "tie_word_embeddings": false,
-  "tokenizer_type": "QWenTokenizer",
+  "tokenizer_class": "QWenTokenizer",
   "transformers_version": "4.32.0",
   "use_cache": true,
   "use_dynamic_ntk": false,
@@ -37,3 +36,4 @@
   "use_logn_attn": false,
   "vocab_size": 152064
 }
+

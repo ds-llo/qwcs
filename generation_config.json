@@ -11,6 +11,5 @@
   ],
   "top_k": 0,
   "top_p": 0.8,
-  "transformers_version": "4.29.2",
-  "trust_remote_code": true
+  "transformers_version": "4.31.0"
 }

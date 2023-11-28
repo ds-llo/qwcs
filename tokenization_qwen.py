@@ -274,3 +274,4 @@ class QWenTokenizer(PreTrainedTokenizer):
         if skip_special_tokens:
             token_ids = [i for i in token_ids if i < self.eod_id]
         return self.tokenizer.decode(token_ids, errors=errors or self.errors)
+
