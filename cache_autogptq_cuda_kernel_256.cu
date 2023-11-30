@@ -1706,4 +1706,3 @@ __global__ void VecQuant8BatchMatMulColumnCompressionKernel_faster_old(
     }
   }
 }
-

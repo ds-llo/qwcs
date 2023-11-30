@@ -69,4 +69,3 @@ class QWenConfig(PretrainedConfig):
             tie_word_embeddings=tie_word_embeddings,
             **kwargs
         )
-

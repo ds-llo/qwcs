@@ -414,4 +414,3 @@ def top_k_logits(logits, top_k=0, top_p=0.0, filter_value=-float("Inf")):
 def switch(val1, val2, boolean):
     boolean = boolean.type_as(val1)
     return (1 - boolean) * val1 + boolean * val2
-
